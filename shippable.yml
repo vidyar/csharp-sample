@@ -9,4 +9,4 @@ before_script:
  - cmd /c "IF NOT EXIST shippable\codecoverage mkdir shippable\codecoverage"
 script:
  - msbuild
- - .\packages\OpenCover.4.5.1923\OpenCover.Console.exe -register:user -target:".\runTests.cmd" -output:shippable\codecoverage\coveragereport.xml -log:All
+ - packages\OpenCover.4.5.1923\OpenCover.Console.exe -register:user -target:".\runTests.cmd" -output:shippable\codecoverage\coveragereport.xml -log:All
