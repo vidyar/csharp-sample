@@ -10,4 +10,4 @@ before_script:
  - cmd /c ".nuget\nuget.exe install .nuget\packages.config -Output packages"
 script:
  - msbuild
- - packages\OpenCover.4.5.1923\OpenCover.Console.exe -register:user -target:".\runTests.cmd" -output:shippable\codecoverage\coveragereport.xml -log:All
+ - cmd /c "packages\OpenCover.4.5.1923\OpenCover.Console.exe -register:user -target:".\runTests.cmd" -output:shippable\codecoverage\coveragereport.xml -log:All"
