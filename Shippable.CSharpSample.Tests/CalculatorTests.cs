@@ -23,5 +23,12 @@ namespace Shippable.CSharpSample.Tests
             Calculator c = new Calculator();
             Assert.AreEqual(4, c.Subtract(5, 1));
         }
+
+        [Test]
+        public void CanMultiply()
+        {
+            Calculator c = new Calculator();
+            Assert.AreEqual(8, c.Subtract(4, 2));
+        }
     }
 }
