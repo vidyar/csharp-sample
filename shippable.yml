@@ -1,5 +1,5 @@
 language: csharp
-csharp:
+rvm:
   - dotNet40
 build_environment: win2012
 env: EnableNuGetPackageRestore=true
