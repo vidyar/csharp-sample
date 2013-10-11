@@ -1,5 +1,3 @@
-csharp:
-  - dotNet40
 build_environment: win2012
 env: EnableNuGetPackageRestore=true
 before_script:
