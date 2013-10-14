@@ -11,5 +11,5 @@ before_script:
 script:
  - msbuild Shippable.CSharpSample.sln
  - cmd /c "packages\OpenCover.4.5.1923\OpenCover.Console.exe -register:user -target:".\runTests.cmd" -output:shippable\codecoverage\coveragereport.xml -log:All"
-notification :
+notifications :
 email : false
