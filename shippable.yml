@@ -1,4 +1,3 @@
-language: java
 csharp:
   - dotNet40
 build_environment: win2012
