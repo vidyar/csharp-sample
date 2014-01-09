@@ -20,7 +20,7 @@ namespace Shippable.CSharpSample
 
         public int Multiply(int a, int b)
         {
-            throw new NotImplementedException();
+            return a * b;
         }
     }
 }
